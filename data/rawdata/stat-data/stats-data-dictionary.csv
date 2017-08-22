@@ -1,0 +1,29 @@
+"","variable_names","description","units","notes"
+"1","totals.Rk","Player's Rank",NA,"No explanation is given for the method of ranking."
+"2","totals.Player","Player's Name",NA,NA
+"3","totals.Age","Player's Age","years old",NA
+"4","totals.G","Games Played",NA,NA
+"5","totals.GS","Games Started",NA,NA
+"6","totals.MP","Minutes Played","minutes",NA
+"7","totals.FG","Field Goals Made",NA,NA
+"8","totals.FGA","Field Goals Attempted",NA,NA
+"9","totals.FG.","Field Goals Percentage","Percent","Empty Data if player has 0 field goal attempts."
+"10","totals.3P","3-pointers Made",NA,NA
+"11","totals.3PA","3-pointers Attempted",NA,NA
+"12","totals.3P.","3-pointers Percentage","Percent","Empty Data if player has 3-point attempts."
+"13","totals.2P","2-pointers Made",NA,NA
+"14","totals.2PA","2-pointers Attempted",NA,NA
+"15","totals.2P.","2-pointers Percentage","Percent","Empty Data if player has 0 2-point attempts."
+"16","totals.eFG.","Effective Field Goal Percentage","Percent","Method of calculating field goal percentage by giving more weight to 3-pointers."
+"17","totals.FT","Free Throws Made",NA,NA
+"18","totals.FTA","Free Throws Attempted",NA,NA
+"19","totals.FT.","Free Throws Percentage","Percent","Empty Data if player has 0 free throw attempts."
+"20","totals.ORB","Offensive Rebounds",NA,NA
+"21","totals.DRB","Defensive Rebounds",NA,NA
+"22","totals.TRB","Total Rebounds",NA,NA
+"23","totals.AST","Assists",NA,NA
+"24","totals.STL","Steals",NA,NA
+"25","totals.BLK","Blocks",NA,NA
+"26","totals.TOV","Turnovers",NA,NA
+"27","totals.PF","Personal Fouls",NA,NA
+"28","totals.PTS","Points",NA,NA

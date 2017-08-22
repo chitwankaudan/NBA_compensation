@@ -1,0 +1,4 @@
+"","variable_names","description","units","notes"
+"1","salaries.Rk","Rank of Salaries on Team",NA,NA
+"2","salaries.Player","Player's Name",NA,"Players may appear twice as they can change teams during the middle of the season."
+"3","salaries.Salary","Player's Salary","USD","Players may receive salary and not play. There is also missing salary information."

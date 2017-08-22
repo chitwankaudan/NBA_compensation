@@ -1,0 +1,35 @@
+=================================
+Summary Statistics 
+=================================
+    player              salary         position     height          weight       games_played  
+ Length:495         Min.   :    8819   C : 91   Min.   :69.00   Min.   :161.0   Min.   : 1.00  
+ Class :character   1st Qu.: 1000000   PF:104   1st Qu.:76.00   1st Qu.:200.0   1st Qu.:27.00  
+ Mode  :character   Median : 2380594   PG:103   Median :79.00   Median :220.0   Median :59.00  
+                    Mean   : 4528821   SF: 97   Mean   :79.03   Mean   :220.7   Mean   :50.75  
+                    3rd Qu.: 5879340   SG:100   3rd Qu.:82.00   3rd Qu.:240.0   3rd Qu.:75.00  
+                    Max.   :25000000            Max.   :87.00   Max.   :307.0   Max.   :82.00  
+                                                                                               
+  field_goals    field_goals_attempts  free_throws     free_throws_attempts total_rebounds  
+ Min.   :  0.0   Min.   :   0.0       Min.   :  0.00   Min.   :  0.0        Min.   :   0.0  
+ 1st Qu.: 43.0   1st Qu.: 100.0       1st Qu.: 17.00   1st Qu.: 24.0        1st Qu.:  57.5  
+ Median :140.0   Median : 315.0       Median : 51.00   Median : 65.0        Median : 157.0  
+ Mean   :185.5   Mean   : 409.5       Mean   : 86.05   Mean   :113.8        Mean   : 212.3  
+ 3rd Qu.:275.5   3rd Qu.: 619.0       3rd Qu.:118.50   3rd Qu.:161.0        3rd Qu.: 300.0  
+ Max.   :805.0   Max.   :1617.0       Max.   :720.00   Max.   :837.0        Max.   :1198.0  
+                                                                                            
+    assists          steals           blocks         turnovers      personal_fouls  
+ Min.   :  0.0   Min.   :  0.00   Min.   :  0.00   Min.   :  0.00   Min.   :  0.00  
+ 1st Qu.: 20.0   1st Qu.: 10.00   1st Qu.:  4.00   1st Qu.: 17.00   1st Qu.: 36.00  
+ Median : 66.0   Median : 28.00   Median : 13.00   Median : 53.00   Median : 98.00  
+ Mean   :108.0   Mean   : 38.01   Mean   : 24.16   Mean   : 66.75   Mean   : 97.86  
+ 3rd Qu.:143.5   3rd Qu.: 57.50   3rd Qu.: 29.50   3rd Qu.: 98.00   3rd Qu.:152.50  
+ Max.   :839.0   Max.   :169.00   Max.   :269.00   Max.   :374.00   Max.   :258.00  
+                                                                                    
+     points            team    
+ Min.   :   0.0   MEM    : 24  
+ 1st Qu.: 115.5   PHO    : 21  
+ Median : 380.0   NOP    : 20  
+ Mean   : 498.2   DEN    : 18  
+ 3rd Qu.: 760.0   HOU    : 18  
+ Max.   :2376.0   PHI    : 18  
+                  (Other):376  

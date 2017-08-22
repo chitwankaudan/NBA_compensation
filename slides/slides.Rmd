@@ -1,0 +1,71 @@
+---
+title: "Stat 133: Term Project"
+author: Chitwan Kaudan, Ashley Liu, Karthik Nataraj, Ong Sheng Siong
+date: December 1, 2016
+output: 
+  ioslides_presentation: 
+    self_contained: no
+---
+
+## Introduction
+
+- In this analysis, our goal is to answer the question: **In the 2015-2016 season, how do the skills of a player relate to his salary?**
+- We will be investigating this question by scraping and cleaning data on player performance, then computing a weighted statistic as a proxy for each player's overall performance. This statistic will then be compared with each player's salary. 
+
+## Data
+
+- Our data was taken from basketball-reference.com, which provides data on player rosters, performance, statistics, and salaries.
+- Although unaffiliated with the NBA, Basketball Reference is a trusted platform for players' performance statistics, salaries, rosters, and other such information, and it is referenced and highly praised by ESPN and former players alike.
+
+## Raw Data Example | Golden State Warriors - Roster Table
+
+![](roster1.png)
+
+## Raw Data Example | Golden State Warriors - Totals Table
+
+![](totals1.png)
+
+## Raw Data Example | Golden State Warriors - Salary Table
+
+![](salary1.png)
+
+## Results | Total Payroll by Team
+
+![](rsz_team_total_payroll.png)
+
+## Results | Standard Deviations of Salary by Team
+
+![](rsz_team_standard_deviation.png)
+
+## Results | Top 20 EFFs
+
+![](20_highest_effs.png)
+
+## Results | Bottom 20 EFFs
+
+![](20_lowest_effs.png)
+
+## Results | Efficiency v.s. Efficiency Differentiated by Position
+
+![](efficiency-compare1.png)
+
+## Results | Efficiency Index v.s. Total Points Differentiated by Position
+
+![](efficiency-points.png)
+
+## Results | Salary v.s. Efficiency Index Differentiated by Position
+
+![](salary-efficiency.png)
+
+## Results | Best Value Players
+
+![](rsz_120-most-val-players.png)
+
+## Results | Worst Value Players
+
+![](rsz_20-least-val-players.png)
+
+## Conclusion
+
+- The main finding of our analysis is that during the 2015-2016 season, a player's EFF* was weakly correlated with their salary.
+- In future analyses, it may be helpful to adjust the formula used in the adjusted EFF metric in order to further reduce the bias towards offensive players.

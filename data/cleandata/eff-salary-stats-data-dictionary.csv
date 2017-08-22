@@ -1,0 +1,17 @@
+"","variable_names","description","units","notes"
+"1","player","Player's Name",NA,"Players may appear twice as they can change teams during the middle of the season.
+    We decided to keep their data as they receive different salaries and have different
+    statistics in each team. It does not make sense to choose one dataset over the other."
+"2","team","Player's Team",NA,NA
+"3","position","Player's Position (PG, SG, SF, PF, C)",NA,NA
+"4","points","Points per Game",NA,NA
+"5","total_rebounds","Rebounds per Game",NA,NA
+"6","assists","Assists per Game",NA,NA
+"7","steals","Steals per Game",NA,NA
+"8","blocks","Blocks per Game",NA,NA
+"9","missed_field_goals","Missed Field Goals per Game",NA,NA
+"10","missed_free_throws","Missed Free Throws per Game",NA,NA
+"11","turnovers","Turnovers per Game",NA,NA
+"12","games_played","Games Played",NA,NA
+"13","efficiency","Efficiency Index",NA,"Calculated using modified efficiency formula."
+"14","salary","Player's Salary","USD","Players may receive salary and not play. There is also missing salary information."

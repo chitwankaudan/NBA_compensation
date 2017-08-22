@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Stat 133: Term Project</title>
+
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="generator" content="pandoc" />
+
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+  <link rel="stylesheet" media="all" href="slides_files/ioslides-13.5.1/fonts/fonts.css">
+
+  <link rel="stylesheet" media="all" href="slides_files/ioslides-13.5.1/theme/css/default.css">
+  <link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="slides_files/ioslides-13.5.1/theme/css/phone.css">
+
+  <base target="_blank">
+
+  <script type="text/javascript">
+    var SLIDE_CONFIG = {
+      // Slide settings
+      settings: {
+                title: 'Stat 133: Term Project',
+                        useBuilds: true,
+        usePrettify: true,
+        enableSlideAreas: true,
+        enableTouch: true,
+                      },
+
+      // Author information
+      presenters: [
+            {
+        name:  'Chitwan Kaudan, Ashley Liu, Karthik Nataraj, Ong Sheng Siong' ,
+        company: '',
+        gplus: '',
+        twitter: '',
+        www: '',
+        github: ''
+      },
+            ]
+    };
+  </script>
+
+  <style type="text/css">
+
+    b, strong {
+      font-weight: bold;
+    }
+
+    em {
+      font-style: italic;
+    }
+
+    slides > slide {
+      -webkit-transition: all 0.4s ease-in-out;
+      -moz-transition: all 0.4s ease-in-out;
+      -o-transition: all 0.4s ease-in-out;
+      transition: all 0.4s ease-in-out;
+    }
+
+    .auto-fadein {
+      -webkit-transition: opacity 0.6s ease-in;
+      -webkit-transition-delay: 0.4s;
+      -moz-transition: opacity 0.6s ease-in 0.4s;
+      -o-transition: opacity 0.6s ease-in 0.4s;
+      transition: opacity 0.6s ease-in 0.4s;
+      opacity: 0;
+    }
+
+  </style>
+
+
+</head>
+
+<body style="opacity: 0">
+
+<slides>
+
+  <slide class="title-slide segue nobackground">
+        <!-- The content of this hgroup is replaced programmatically through the slide_config.json. -->
+    <hgroup class="auto-fadein">
+      <h1 data-config-title><!-- populated from slide_config.json --></h1>
+      <h2 data-config-subtitle><!-- populated from slide_config.json --></h2>
+      <p data-config-presenter><!-- populated from slide_config.json --></p>
+            <p style="margin-top: 6px; margin-left: -2px;">December 1, 2016</p>
+          </hgroup>
+  </slide>
+
+<slide class=''><hgroup><h2>Introduction</h2></hgroup><article  id="introduction">
+
+<ul>
+<li>In this analysis, our goal is to answer the question: <strong>In the 2015-2016 season, how do the skills of a player relate to his salary?</strong></li>
+<li>We will be investigating this question by scraping and cleaning data on player performance, then computing a weighted statistic as a proxy for each player&#39;s overall performance. This statistic will then be compared with each player&#39;s salary.</li>
+</ul>
+
+</article></slide><slide class=''><hgroup><h2>Data</h2></hgroup><article  id="data">
+
+<ul>
+<li>Our data was taken from basketball-reference.com, which provides data on player rosters, performance, statistics, and salaries.</li>
+<li>Although unaffiliated with the NBA, Basketball Reference is a trusted platform for players&#39; performance statistics, salaries, rosters, and other such information, and it is referenced and highly praised by ESPN and former players alike.</li>
+</ul>
+
+</article></slide><slide class=''><hgroup><h2>Raw Data Example </h2><h3> Golden State Warriors - Roster Table</h3></hgroup><article  id="raw-data-example-golden-state-warriors---roster-table">
+
+<img src='roster1.png' title='fig:'/>
+
+</article></slide><slide class=''><hgroup><h2>Raw Data Example </h2><h3> Golden State Warriors - Totals Table</h3></hgroup><article  id="raw-data-example-golden-state-warriors---totals-table">
+
+<img src='totals1.png' title='fig:'/>
+
+</article></slide><slide class=''><hgroup><h2>Raw Data Example </h2><h3> Golden State Warriors - Salary Table</h3></hgroup><article  id="raw-data-example-golden-state-warriors---salary-table">
+
+<img src='salary1.png' title='fig:'/>
+
+</article></slide><slide class=''><hgroup><h2>Results </h2><h3> Total Payroll by Team</h3></hgroup><article  id="results-total-payroll-by-team">
+
+<img src='rsz_team_total_payroll.png' title='fig:'/>
+
+</article></slide><slide class=''><hgroup><h2>Results </h2><h3> Standard Deviations of Salary by Team</h3></hgroup><article  id="results-standard-deviations-of-salary-by-team">
+
+<img src='rsz_team_standard_deviation.png' title='fig:'/>
+
+</article></slide><slide class=''><hgroup><h2>Results </h2><h3> Top 20 EFFs</h3></hgroup><article  id="results-top-20-effs">
+
+<img src='20_highest_effs.png' title='fig:'/>
+
+</article></slide><slide class=''><hgroup><h2>Results </h2><h3> Bottom 20 EFFs</h3></hgroup><article  id="results-bottom-20-effs">
+
+<img src='20_lowest_effs.png' title='fig:'/>
+
+</article></slide><slide class=''><hgroup><h2>Results </h2><h3> Efficiency v.s. Efficiency Differentiated by Position</h3></hgroup><article  id="results-efficiency-v.s.-efficiency-differentiated-by-position">
+
+<img src='efficiency-compare1.png' title='fig:'/>
+
+</article></slide><slide class=''><hgroup><h2>Results </h2><h3> Efficiency Index v.s. Total Points Differentiated by Position</h3></hgroup><article  id="results-efficiency-index-v.s.-total-points-differentiated-by-position">
+
+<img src='efficiency-points.png' title='fig:'/>
+
+</article></slide><slide class=''><hgroup><h2>Results </h2><h3> Salary v.s. Efficiency Index Differentiated by Position</h3></hgroup><article  id="results-salary-v.s.-efficiency-index-differentiated-by-position">
+
+<img src='salary-efficiency.png' title='fig:'/>
+
+</article></slide><slide class=''><hgroup><h2>Results </h2><h3> Best Value Players</h3></hgroup><article  id="results-best-value-players">
+
+<img src='rsz_120-most-val-players.png' title='fig:'/>
+
+</article></slide><slide class=''><hgroup><h2>Results </h2><h3> Worst Value Players</h3></hgroup><article  id="results-worst-value-players">
+
+<img src='rsz_20-least-val-players.png' title='fig:'/>
+
+</article></slide><slide class=''><hgroup><h2>Conclusion</h2></hgroup><article  id="conclusion">
+
+<ul>
+<li>The main finding of our analysis is that during the 2015-2016 season, a player&#39;s EFF* was weakly correlated with their salary.</li>
+<li>In future analyses, it may be helpful to adjust the formula used in the adjusted EFF metric in order to further reduce the bias towards offensive players.</li>
+</ul></article></slide>
+
+
+  <slide class="backdrop"></slide>
+
+</slides>
+
+<script src="slides_files/ioslides-13.5.1/js/modernizr.custom.45394.js"></script>
+<script src="slides_files/ioslides-13.5.1/js/prettify/prettify.js"></script>
+<script src="slides_files/ioslides-13.5.1/js/prettify/lang-r.js"></script>
+<script src="slides_files/ioslides-13.5.1/js/prettify/lang-yaml.js"></script>
+<script src="slides_files/ioslides-13.5.1/js/hammer.js"></script>
+<script src="slides_files/ioslides-13.5.1/js/slide-controller.js"></script>
+<script src="slides_files/ioslides-13.5.1/js/slide-deck.js"></script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+<!-- map slide visiblity events into shiny -->
+<script>
+  (function() {
+    if (window.jQuery) {
+       window.jQuery(document).on('slideleave', function(e) {
+         window.jQuery(e.target).trigger('hidden');
+      });
+       window.jQuery(document).on('slideenter', function(e) {
+         window.jQuery(e.target).trigger('shown');
+      });
+    }
+  })();
+</script>
+
+</body>
+</html>

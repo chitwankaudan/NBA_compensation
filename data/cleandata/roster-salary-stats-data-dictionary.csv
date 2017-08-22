@@ -1,0 +1,21 @@
+"","variable_names","description","units","notes"
+"1","player","Player's Name",NA,"Players may appear twice as they can change teams during the middle of the season.
+    We decided to keep their data as they receive different salaries and have different
+    statistics in each team. It does not make sense to choose one dataset over the other."
+"2","salary","Player's Team",NA,NA
+"3","position","Player's Position (PG, SG, SF, PF, C)",NA,NA
+"4","height","Height of Players","inches",NA
+"5","weight","Weight of Players","pounds",NA
+"6","games_played","Field Goals Made",NA,NA
+"7","field_goals","Field Goals Attempted",NA,NA
+"8","field_goals_attempts","Free Throws Made",NA,NA
+"9","free_throws","Free Throws Attempted",NA,NA
+"10","free_throws_attempts","Points",NA,NA
+"11","total_rebounds","Total Rebounds",NA,NA
+"12","assists","Assists",NA,NA
+"13","steals","Steals",NA,NA
+"14","blocks","Blocks",NA,NA
+"15","turnovers","Turnovers",NA,NA
+"16","personal_fouls","Personal Fouls",NA,NA
+"17","points","Games Played",NA,NA
+"18","team","Salary","USD","Players may receive salary and not play. There is also missing salary information."

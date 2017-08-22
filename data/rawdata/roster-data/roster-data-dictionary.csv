@@ -1,0 +1,10 @@
+"","variable_names","description","units","notes"
+"1","roster.No.","Roster Number for Players (between 0-99)",NA,NA
+"2","roster.Player","Player's Name",NA,"Players may appear twice as they can change teams during the middle of the season."
+"3","roster.Pos","Player's Position (PG, SG, SF, PF, C)",NA,NA
+"4","roster.Ht","Height of Players","feet-inches",NA
+"5","roster.Wt","Weight of Players","pounds",NA
+"6","roster.Birth.Date","Birthdate of Players (MM-DD-YYYY)",NA,NA
+"7","roster.Â.","Player's Country (ISO alpha-2 code)",NA,NA
+"8","roster.Exp","Years of Experience","years","R stands for rookie which means players have 0 years of experience."
+"9","roster.College","Player's College Team",NA,"Missing info for players who played overseas or skipped college."

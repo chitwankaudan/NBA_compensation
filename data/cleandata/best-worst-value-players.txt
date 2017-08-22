@@ -1,0 +1,48 @@
+=================================
+List of 20 most valuable players 
+=================================
+                    player team player_value
+476          Alan Williams  PHO 1.004404e-05
+477          Nate Robinson  NOP 1.006019e-05
+478         Jason Thompson  TOR 1.018331e-05
+479       Hassan Whiteside  MIA 1.041909e-05
+480           Bryce Cotton  MEM 1.146614e-05
+481          Briante Weber  MEM 1.315649e-05
+482            Coty Clarke  BOS 1.480499e-05
+483            Chuck Hayes  HOU 1.550913e-05
+484          Jordan Farmar  MEM 1.635279e-05
+485            Joe Johnson  MIA 1.743501e-05
+486        Michael Beasley  HOU 1.997489e-05
+487 Thanasis Antetokounmpo  NYK 2.208904e-05
+488             Henry Sims  BRK 2.312232e-05
+489           Jordan McRae  PHO 2.649021e-05
+490        Jimmer Fredette  NYK 2.856866e-05
+491        Jordan Hamilton  NOP 3.126788e-05
+492            Tim Frazier  NOP 3.933540e-05
+493            James Ennis  NOP 1.130464e-04
+494          Briante Weber  MIA 1.976460e-04
+495          Dahntay Jones  CLE 6.408706e-04
+=================================
+List of 20 least valuable players 
+=================================
+               player team  player_value
+1     Orlando Johnson  NOP -5.409284e-05
+2     Orlando Johnson  PHO -4.889769e-05
+3      Alex Stepheson  MEM -2.909657e-05
+4    Jared Cunningham  MIL -1.847328e-05
+5     Jimmer Fredette  NOP -1.429720e-05
+6     Elliot Williams  MEM -1.175213e-05
+7        Bryce Cotton  PHO -8.496930e-06
+8      Xavier Munford  MEM -7.569540e-06
+9       Lorenzo Brown  PHO -6.289433e-06
+10      Keith Appling  ORL -4.828975e-06
+11         Duje Dukan  SAC -4.384509e-06
+12       J.J. O'Brien  UTA -2.773076e-06
+13        Erick Green  DEN -2.442392e-06
+14       Luis Montero  POR -2.413094e-06
+15 Bryce Dejean-Jones  NOP -2.191591e-06
+16     Elijah Millsap  UTA -1.987838e-06
+17       Devyn Marble  ORL -1.977666e-06
+18        Tony Wroten  PHI -1.932687e-06
+19     Aaron Harrison  CHO -1.661648e-06
+20    Pat Connaughton  POR -1.489441e-06
